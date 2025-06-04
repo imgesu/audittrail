@@ -1,0 +1,11 @@
+Record_ID,Timestamp,User,Action,System
+8cc223d8,2024-05-20 08:00:00,ts.schmidt,Create Record,LIMS
+6d09834c,2024-05-20 08:15:00,ts.schmidt,Create Record,MES
+d8fca075,2024-05-20 08:30:00,ts.schmidt,Create Record,LIMS
+bdef200f,2024-05-20 08:45:00,qa.muller,Create Record,CDS
+bef1df17,2024-05-20 09:00:00,ts.schmidt,Logout,MES
+a597059b,2024-05-20 09:15:00,qa.muller,Modify Record,MES
+e2a2cb14,2024-05-20 09:30:00,qa.muller,Login,CDS
+2573662c,2024-05-20 09:45:00,ts.schmidt,Logout,LIMS
+55be1d59,2024-05-20 10:00:00,ts.schmidt,Logout,MES
+a4b75d16,2024-05-20 10:15:00,qa.muller,Login,CDS
