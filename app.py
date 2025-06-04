@@ -3,8 +3,6 @@ import pandas as pd
 from scoring import risk_score_audit_trail
 from pdf_export import export_audit_pdf
 
-import streamlit as st
-
 # Basic password protection
 st.title("🔐 Login Required")
 
