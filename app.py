@@ -3,16 +3,16 @@ import pandas as pd
 from scoring import risk_score_audit_trail
 from pdf_export import export_audit_pdf
 
-# Basic password protection
-st.title("🔐 Login Required")
+# 🔧 MUST be the first Streamlit command
+st.set_page_config(page_title="Audit Trail Risk Analyzer")
 
+# 🔐 Password protection
 password = st.text_input("Enter password", type="password")
 if password != "gxpsecure123":
     st.warning("🔒 Access denied. Please enter the correct password.")
     st.stop()
 
-
-st.set_page_config(page_title="Audit Trail Risk Analyzer")
+# 🎯 App content starts here
 st.title("🔍 Audit Trail Risk Analyzer – GxP AI SaaS MVP")
 
 uploaded_file = st.file_uploader("📤 Upload Audit Trail CSV", type="csv")
