@@ -13,11 +13,6 @@ if password != "gxpsecure123":
     st.warning("🔒 Access denied. Please enter the correct password.")
     st.stop()
 
-allowed_passwords = ["secure1", "qa2025", "clientABC"]
-password = st.text_input("Enter password", type="password")
-if password not in allowed_passwords:
-    st.warning("🔒 Unauthorized")
-    st.stop()
 
 st.set_page_config(page_title="Audit Trail Risk Analyzer")
 st.title("🔍 Audit Trail Risk Analyzer – GxP AI SaaS MVP")
